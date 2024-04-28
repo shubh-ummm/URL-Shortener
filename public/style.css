@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+.short-url {
+  margin: 20px;
+  text-align: center; /* Center align text */
+}
+
+.short-url a {
+  color: #2196f3; /* Blue link color */
+  text-decoration: none;
+}
+
+input[type='url'] {
+  display: block;
+  width: 40vw;
+  padding: 12px;
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 8px;
+  margin: 10px auto; /* Center input horizontally */
+}
+
+input[type='submit'] {
+  display: block;
+  background-color: #ff4081; /* Pink button color */
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px auto; /* Center button horizontally */
+}
+
+p.error {
+  color: #f44336; /* Red error text color */
+  text-align: center; /* Center align error message */
+}
